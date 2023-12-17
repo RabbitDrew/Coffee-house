@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--css-->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!--/css-->
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Condensed:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <!--/fonts-->
+
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!--favicon-->
+
+    <title>Coffee_house</title>
+
+</head>
+
+<body>
+
+    <header class="header_container">
+        <section class="header_wrapper">
+            <div class="logo">
+                <a class="logo_wrapper" href="index.html">
+                    <div class="logo_circle">
+                        <img src="./img/circle.svg" alt="circle">
+                    </div>
+
+                    <div class="logo_inscription">
+                        <img src="./img/inscription.svg" alt="inscription">
+                    </div>
+                </a>
+
+                <div class="logo_title_wrapper">
+                    <h2 class="logo_title">COFFEE HOUSE</h2>
+                </div>
+            </div>
+
+            <div class="nav_wrapper">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a class="nav_item_link" href="#get_favorite_coffee">
+                           Favorite coffee
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a class="nav_item_link" href="#get_about">
+                            About
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a class="nav_item_link" href="#get_mobile_app">
+                            Mobile app
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a class="nav_item_link" href="#get_contacts">
+                            Contact us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <a class="menu_wrapper" href="index_menu.html">
+                <h2 class="menu_title">Menu</h2>
+                <img class="sign_of_cup" src="./img/coffee-cup.svg" alt="coffee-cup">
+            </a>
+                    <!--adopt_btn-->
+                    <div class="adopt_btns_wrapper hide_btns">
+                        
+                        <div class="circl_is_closed lines animation_open_burger animation_close_burger ">
+                            <div class="line_top line_animation_top  line_to_cross_animation_top "></div>
+                            <div class="line_bottom line_animation_bottom  line_to_cross_animation_bottom"></div>
+                        </div>
+
+                    </div>
+                    <!--/adopt_btn-->
+
+                    <!--adopt_menu-->
+                    <div class="adopt_menu_panel panel_get_close panel_is_animated_open panel_is_animated_close ">
+                        <div class="adopt_menu_wrapper">
+
+                                <ul class="nav_list_adopt">
+                                    <li class="nav_item_adopt">
+                                        <a class="nav_item_adopt_link" href="#get_favorite_coffee">
+                                           Favorite coffee
+                                        </a>
+                                    </li>
+
+                                    <li class="nav_item_adopt">
+                                        <a class="nav_item_adopt_link" href="#get_about">
+                                            About
+                                        </a>
+                                    </li>
+
+                                    <li class="nav_item_adopt">
+                                        <a class="nav_item_adopt_link" href="#get_mobile_app">
+                                            Mobile app
+                                        </a>
+                                    </li>
+
+                                    <li class="nav_item_adopt">
+                                        <a class="nav_item_adopt_link" href="#get_contacts">
+                                            Contact us
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <a class="menu_wrapper_adopt" href="index_menu.html">
+                                    <h2 class="menu_title_adopt">Menu</h2>
+                                    <img class="sign_of_cup_adopt" src="./img/coffee-cup.svg" alt="coffee-cup">
+                                </a>
+
+                        </div>
+                    </div>
+                    <!--/adopt_menu-->
+        </section>
+    </header>
+
+    <main class="container">
+
+        <section class="enjoy" id="get_enjoy">
+
+            <div class="enjoy_wrapper">
+                <video class="video_bg" src="./video/video.mp4" autoplay muted loop style="width: 100%; height: 100%; object-fit: cover;"></video>
+                
+                    <div class="content_enjoy_wrapper">
+
+                        <div class ="enjoy_intro">
+                            <h1 class="enjoy_intro_title">
+                                <span class="word_enjoy">Enjoy</span> premium <br>
+                                coffee at our<br>
+                                charming cafe
+                            </h1>
+                        </div>
+        
+                        <article class="enjoy_subtitle_wrapper">
+                            <h2 class="enjoy_subtitle">
+                                With its inviting atmosphere and delicious coffee options,
+                                the Coffee House Resource is a popular destination for coffee lovers and those seeking a warm and inviting space to enjoy their favorite beverage.
+                            </h2>
+                        </article>
+
+                        <a class="btn_menu" href="index_menu.html">
+                            <h2 class="btn_title">Menu</h2>
+                            <img class="btn_title_img_hover" src="./img/coffee-cup.svg" alt="">
+                        </a>
+                    </div>
+                
+            </div>
+        
+        
+        </section>
+
+        <section class ="favorites_coffee" id="get_favorite_coffee">
+
+
+                <div class="favorites_coffee_title_wrapper">
+                    <h2 class="favorites_coffee_title">Choose your <span class="word_favorite">favorite</span> coffee</h2>
+                </div>
+
+                <div class="slider_favorites">
+
+                    <div class="btn_slider_wrapper left_wrapper">
+                        <div class="btn_slider left">
+                            <svg class="btn_slider_img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M18.5 12H6M6 12L12 6M6 12L12 18"  stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="slider_win">
+
+                        <div class="slider_win_wrapper">
+
+                            <div class="slider_list">
+
+                                <div class="slider_item">
+                                    <img class="slider_img" src="./img/slider_img/coffee-slider-1.png" alt="pic1">
+                                    <div class="slider_title_wrapper">
+                                        <h2 class="slider_title">S’mores Frappuccino</h2>
+                                    </div>
+                                    <article class="slider_subtitle_wrapper">
+                                        <h2 class="slider_subtitle">
+                                            This new drink takes an espresso and mixes it with brown sugar and cinnamon before being topped with oat milk.
+                                        </h2>
+                                    </article>
+                                    <div class="price_wrapper">
+                                        <h2 class="price_title">$5.50</h2>
+                                    </div>
+                                </div>
+
+                                <div class="slider_item">
+                                    <img class="slider_img" src="./img/slider_img/coffee-slider-2.png" alt="pic1">
+                                    <div class="slider_title_wrapper">
+                                        <h2 class="slider_title">Caramel Macchiato</h2>
+                                    </div>
+                                    <article class="slider_subtitle_wrapper">
+                                        <h2 class="slider_subtitle">
+                                            Fragrant and unique classic espresso with rich caramel-peanut syrup, with cream under whipped thick foam.
+                                        </h2>
+                                    </article>
+                                    <div class="price_wrapper">
+                                        <h2 class="price_title">$5.00</h2>
+                                    </div>
+                                </div>
+
+                                <div class="slider_item">
+                                    <img class="slider_img" src="./img/slider_img/coffee-slider-3.png" alt="pic1">
+                                    <div class="slider_title_wrapper">
+                                        <h2 class="slider_title">Ice coffee</h2>
+                                    </div>
+                                    <article class="slider_subtitle_wrapper">
+                                        <h2 class="slider_subtitle">
+                                            A popular summer drink that tones and invigorates. Prepared from coffee, milk and ice.
+                                        </h2>
+                                    </article>
+                                    <div class="price_wrapper">
+                                        <h2 class="price_title">$4.50</h2>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="btn_slider_wrapper right_wrapper">
+                        <div class="btn_slider right">
+                            <svg class="btn_slider_img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M6 12H18.5M18.5 12L12.5 6M18.5 12L12.5 18"  stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class ="controls_btns">
+                    <div class="controls_btn_wrapper">
+                        <div class="controls_btn controll_btn_animation"></div>
+                    </div>
+                    <div class="controls_btn_wrapper">
+                        <div class="controls_btn controll_btn_animation"></div>
+                    </div>
+                    <div class="controls_btn_wrapper">
+                        <div class="controls_btn controll_btn_animation"></div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="about" id="get_about">
+            <div class="about_title_wrapper">
+                <h2 class="about_title">
+                    Resource is <span class="sentance_about_place">the perfect and cozy place</span> where you can enjoy a variety 
+                    of hot beverages, relax, catch up with friends, or get some work done.
+                </h2>
+            </div>
+
+            <div class="about_img_wrapper">
+                <div class="img_wrapper_left_side">
+                    <div class="img_left_one">
+                        <img class="img_about_one" src="./img/about-1.png" alt="about_1">
+                    </div>
+                    <div class="img_left_two">
+                        <img class="img_about_two" src="./img/about-2.png" alt="about_2">
+                    </div>
+                </div>
+
+                <div class="img__wrapper_right_side">
+                    <div class="img_right_one">
+                        <img class="img_about_three" src="./img/about-3.jpg" alt="about_3">
+                    </div>
+                    <div class="img_right_two">
+                        <img class="img_about_four" src="./img/about-4.jpg" alt="about_4">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mobile_app" id="get_mobile_app">
+            <div class="download_wrapper">
+                <div class="apps_title_wrapper">
+                    <h2 class="apps_title">
+                        <span class="word_download">Download</span> our apps to start ordering
+                    </h2>
+                </div>
+                <article class="apps_subtitle_wrapper">
+                    <h2 class="apps_subtitle">
+                        Download the Resource app today and experience the comfort of ordering your favorite coffee from wherever you are
+                    </h2>
+                </article>
+
+                <div class="appstore_googleplay_wrapper">
+                    <div class="appstore_wrapper">
+                        <div class="appstore_img_wrapper">
+                            <svg class="appstore_img" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                <path d="M26.7073 18.6307C26.6704 14.6324 30.065 12.6872 30.2203 12.5966C28.2977 9.86366 25.3178 9.49026 24.2707 9.46048C21.7679 9.20369 19.3403 10.9206 18.0654 10.9206C16.765 10.9206 14.8017 9.48529 12.6858 9.52747C9.96293 9.56841 7.41566 11.1055 6.0186 13.4923C3.13542 18.359 5.28572 25.5108 8.04802 29.4446C9.42981 31.3712 11.0444 33.5223 13.1578 33.4466C15.2254 33.3635 15.9978 32.1614 18.4929 32.1614C20.9651 32.1614 21.6903 33.4466 23.8457 33.3983C26.0647 33.3635 27.4618 31.463 28.7952 29.519C30.392 27.3108 31.0333 25.1362 31.0588 25.0245C31.0066 25.0071 26.7493 23.4229 26.7073 18.6307Z" fill="#403F3D"/>
+                                <path d="M22.6357 6.87268C23.7477 5.51675 24.5086 3.67205 24.2974 1.80005C22.6879 1.86952 20.675 2.88554 19.5159 4.21169C18.4903 5.38029 17.5742 7.29571 17.8109 9.097C19.6189 9.2285 21.4753 8.20752 22.6357 6.87268Z" />
+                            </svg>
+                        </div>
+
+                        <div class="appstore_titles_wrapper">
+                            <h2 class="appstore_subtitle">
+                                Available on the
+                            </h2>
+                            <h2 class="appstore_title">
+                                App Store
+                            </h2>
+                        </div>
+                    </div>
+                    
+                    <div class="googleplay_wrapper">
+                        <div class="googleplay_img_wrapper">
+                            <svg class="googleplay_img" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                <path d="M3.7558 3.20297C3.39335 3.57289 3.18359 4.14884 3.18359 4.89471V31.4994C3.18359 32.2453 3.39335 32.8212 3.7558 33.1911L3.84525 33.2723L19.1359 18.37V18.0181L3.84525 3.11575L3.7558 3.20297Z" fill="#403F3D"/>
+                                <path d="M26.0776 23.34L20.9863 18.37V18.0181L26.0837 13.0482L26.1979 13.1128L32.2345 16.4617C33.9573 17.4121 33.9573 18.976 32.2345 19.9324L26.1979 23.2753L26.0776 23.34Z" fill="#403F3D"/>
+                                <path d="M25.2733 24.2007L20.0617 19.1195L4.68164 34.1166C5.25384 34.7031 6.18695 34.7737 7.24807 34.1873L25.2733 24.2007Z" />
+                                <path d="M25.2733 12.1876L7.24807 2.20103C6.18695 1.62058 5.25384 1.69125 4.68164 2.27772L20.0617 17.2688L25.2733 12.1876Z" />
+                            </svg>
+                        </div>
+
+                        <div class="googleplay_titles_wrapper">
+                            <h2 class="googleplay_subtitle">
+                                Available on 
+                            </h2>
+                            <h2 class="googleplay_title">
+                                Google play
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="phone_image_wrapper">
+                <img class="phone_image" src="./img/mobile-screens.png" alt="">
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer" id="get_contacts">
+        <div class="contacts_container">
+            
+            <div class="social_networks_wrapper">
+                <div class="footer_title_wrapper">
+                    <h2 class="footer_title">
+                        Sip, Savor, Smile.
+                        <span class="coloriezed_words">It’s coffee time!</span>
+                    </h2>
+                </div>
+
+                <div class="social_icons_wrapper">
+                    <div class="icon_wrapper">
+                        <svg class="social_icon twit" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M23 3.01006C23 3.01006 20.9821 4.20217 19.86 4.54006C19.2577 3.84757 18.4573 3.35675 17.567 3.13398C16.6767 2.91122 15.7395 2.96725 14.8821 3.29451C14.0247 3.62177 13.2884 4.20446 12.773 4.96377C12.2575 5.72309 11.9877 6.62239 12 7.54006V8.54006C10.2426 8.58562 8.50127 8.19587 6.93101 7.4055C5.36074 6.61513 4.01032 5.44869 3 4.01006C3 4.01006 -1 13.0101 8 17.0101C5.94053 18.408 3.48716 19.109 1 19.0101C10 24.0101 21 19.0101 21 7.51006C20.9991 7.23151 20.9723 6.95365 20.92 6.68006C21.9406 5.67355 23 3.01006 23 3.01006Z" stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="icon_wrapper">
+                        <svg class="social_icon inst" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z" stroke="#E1D4C9"/>
+                            <path d="M17.5 6.51L17.51 6.49889" stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="icon_wrapper">
+                        <svg class="social_icon fb" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M17 2H14C12.6739 2 11.4021 2.52678 10.4645 3.46447C9.52678 4.40215 9 5.67392 9 7V10H6V14H9V22H13V14H16L17 10H13V7C13 6.73478 13.1054 6.48043 13.2929 6.29289C13.4804 6.10536 13.7348 6 14 6H17V2Z" stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contacts_wrapper">
+                <div class="contacts_title_wrapper">
+                    <h2 class="contacts_title">Contacts us</h2>
+                </div>
+
+                <div class="contacts_details_wrapper">
+                    <div class="contacts_details addres">
+                        <a class="addres_wrapper" href="https://maps.app.goo.gl/22nBBd5sayK3V3cRA">
+                            <img class="img_contacts img_addres" src="./img/addres.svg" alt="addres">
+                            <h2 class="contacts_details_title addres_title" >8558 Green Rd., LA</h2>
+                        </a>
+                    </div>
+                    <div class="contacts_details phone" >
+                        <a class="phone_wrapper" href="tel:16035550123">
+                            <img class="img_contacts img_phone" src="./img/phone.svg" alt="phone">
+                            <h2 class="contacts_details_title phone_title">+1 (603) 555-0123</h2>
+                        </a>
+                    </div>
+                    <div class="contacts_details work_time">
+                        <img class="img_contacts img_work_time" src="./img/clock.svg" alt="work_time">
+                        <h2 class="contacts_details_title work_time">Mon-Sat 9:00 AM - 23:00 PM</h2>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+<script src="./index.js"></script>
+</body>
+</html>
